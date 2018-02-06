@@ -13,7 +13,7 @@ namespace XamarinTest2
 		{
 			InitializeComponent();
 
-			MainPage = new XamarinTest2.views.PageFeedYouTube();
+			MainPage = new XamarinTest2.views.Search();
 		}
 
 		protected override void OnStart ()

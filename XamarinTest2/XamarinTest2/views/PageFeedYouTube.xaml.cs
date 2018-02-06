@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XamarinTest2.objects;
+using XamarinTest2.util;
 
 namespace XamarinTest2.views
 {
@@ -15,18 +16,22 @@ namespace XamarinTest2.views
 	public partial class PageFeedYouTube : ContentPage
 	{
 
-         ObservableCollection<Video> Videos;
+         ObservableCollection<VideoInformation> Videos;
+         YTSearch vs = new YTSearch();
 
-		public PageFeedYouTube ()
+		public PageFeedYouTube (string querry)
 		{
 			InitializeComponent ();
 
-            this.Videos = new ObservableCollection<Video>();
+            this.Videos = new ObservableCollection<VideoInformation>();
 
-            for (int i = 0; i < 7; i++)
-                this.Videos.Add(new Video { Title = "LOL", PictureUrl= "http://testcreative.co.uk/wp-content/uploads/2017/10/Test-Logo-Small-Black-transparent-1.png" });
-
+            foreach (VideoInformation vi in vs.SearchQuery(querry, 1))
+                this.Videos.Add(vi);
+          
+           
             VideosView.ItemsSource = this.Videos;
 		}
+
+       
 	}
 }

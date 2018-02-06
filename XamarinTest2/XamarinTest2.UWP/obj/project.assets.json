@@ -1339,6 +1339,15 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "YoutubeSearch.dll/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/YoutubeSearch.dll": {}
+        },
+        "runtime": {
+          "lib/YoutubeSearch.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-arm": {
@@ -2993,6 +3002,15 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "YoutubeSearch.dll/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/YoutubeSearch.dll": {}
+        },
+        "runtime": {
+          "lib/YoutubeSearch.dll": {}
         }
       }
     },
@@ -4692,6 +4710,15 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "YoutubeSearch.dll/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/YoutubeSearch.dll": {}
+        },
+        "runtime": {
+          "lib/YoutubeSearch.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-x64": {
@@ -6346,6 +6373,15 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "YoutubeSearch.dll/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/YoutubeSearch.dll": {}
+        },
+        "runtime": {
+          "lib/YoutubeSearch.dll": {}
         }
       }
     },
@@ -8045,6 +8081,15 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "YoutubeSearch.dll/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/YoutubeSearch.dll": {}
+        },
+        "runtime": {
+          "lib/YoutubeSearch.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-x86": {
@@ -9699,6 +9744,15 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "YoutubeSearch.dll/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/YoutubeSearch.dll": {}
+        },
+        "runtime": {
+          "lib/YoutubeSearch.dll": {}
         }
       }
     },
@@ -11397,6 +11451,15 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "YoutubeSearch.dll/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/YoutubeSearch.dll": {}
+        },
+        "runtime": {
+          "lib/YoutubeSearch.dll": {}
         }
       }
     }
@@ -18789,13 +18852,24 @@
         "xamarin.forms.2.5.0.122203.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "YoutubeSearch.dll/1.1.0": {
+      "sha512": "HIewHh+oCd0kz/LJr/uEUl5W5zOtCTtccQIBE5DlCt9AG+7C9ibtm12ix8YW/qUV0hBttDpHAJ0PAAS+FoRP/Q==",
+      "type": "package",
+      "path": "youtubesearch.dll/1.1.0",
+      "files": [
+        "lib/YoutubeSearch.dll",
+        "youtubesearch.dll.1.1.0.nupkg.sha512",
+        "youtubesearch.dll.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
       "Google.Apis >= 1.32.1",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.0.1",
-      "Xamarin.Forms >= 2.5.0.122203"
+      "Xamarin.Forms >= 2.5.0.122203",
+      "YoutubeSearch.dll >= 1.1.0"
     ]
   },
   "packageFolders": {
@@ -18847,6 +18921,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[2.5.0.122203, )"
+          },
+          "YoutubeSearch.dll": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           }
         },
         "imports": [
@@ -18876,5 +18954,17 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'YoutubeSearch.dll 1.1.0' a été restauré en utilisant '.NETFramework,Version=v4.6.1' au lieu du framework cible du projet 'UAP,Version=v10.0.16299'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "YoutubeSearch.dll",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299"
+      ]
+    }
+  ]
 }

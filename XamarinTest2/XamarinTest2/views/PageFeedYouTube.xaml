@@ -4,13 +4,19 @@
              x:Class="XamarinTest2.views.PageFeedYouTube">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="YouTube Search!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <ListView x:Name="VideosView">
+            <ListView x:Name="VideosView" RowHeight="100" WidthRequest="100">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ImageCell  ImageSource="{x:Binding PictureUrl}}"  Text="{x:Binding Title}"/>
+                        <ViewCell >
+                            <StackLayout Orientation="Horizontal" Padding="5,5,5,5" >
+                                <Image Source="{x:Binding Thumbnail}}"   />
+                                <Label Text="{x:Binding Title}}"/>
+                                <Label Text="{x:Binding Author}}"/>
+                            </StackLayout>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

@@ -20,15 +20,26 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)objects\Video.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)util\JsonQuerry.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)util\YouTubeSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)objects\VideoInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)objects\VideoItemHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)util\YTSearch.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)views\PageFeedYouTube.xaml.cs">
       <DependentUpon>PageFeedYouTube.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)views\Search.xaml.cs">
+      <DependentUpon>Search.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\PageFeedYouTube.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\Search.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
