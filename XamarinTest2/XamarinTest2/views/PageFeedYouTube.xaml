@@ -10,7 +10,7 @@
             <ListView x:Name="VideosView" RowHeight="100" WidthRequest="100">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell >
+                        <ViewCell Tapped="OnCellTapped">
                             <StackLayout Orientation="Horizontal" Padding="5,5,5,5" >
                                 <Image Source="{x:Binding Thumbnail}}"   />
                                 <Label Text="{x:Binding Title}}"/>

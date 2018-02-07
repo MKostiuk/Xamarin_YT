@@ -4,7 +4,6 @@ C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\bin\
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\bin\Debug\com.companyname.XamarinTest2-Signed.apk
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\XamarinTest2.Android.csproj.CoreCompileInputs.cache
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\XamarinTest2.Droid.App.xaml.g.cs
-C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\XamarinTest2.Droid.MainPage.xaml.g.cs
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\XamarinTest2.Android.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\XamarinTest2.Android.pdb
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\bin\com.companyname.XamarinTest2.apk

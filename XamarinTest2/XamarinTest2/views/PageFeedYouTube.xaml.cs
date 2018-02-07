@@ -32,6 +32,14 @@ namespace XamarinTest2.views
             VideosView.ItemsSource = this.Videos;
 		}
 
+        void OnCellTapped(Object sender, EventArgs args)
+        {
+            var cell = sender as ViewCell;
+
+            cell.Height = 100000;
+            cell.ForceUpdateSize();
+        }
+
        
 	}
 }
