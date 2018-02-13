@@ -13,7 +13,7 @@ namespace XamarinTest2
 		{
 			InitializeComponent();
 
-			MainPage = new XamarinTest2.views.Main();
+			MainPage = new XamarinTest2.views.MainMenu();
 		}
 
 		protected override void OnStart ()

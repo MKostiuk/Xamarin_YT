@@ -15,6 +15,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)objects\MainMenuItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)objects\Post.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)objects\VideoInformation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)objects\VideoItemHelper.cs" />
@@ -22,8 +23,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)util\IFileHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\RestConsumer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\YTSearch.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)views\Main.xaml.cs">
-      <DependentUpon>Main.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)views\MainMenu.xaml.cs">
+      <DependentUpon>MainMenu.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)views\PageFeedYouTube.xaml.cs">
@@ -62,13 +63,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\Main.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\RestPosts.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\RestPosts.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\MainMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

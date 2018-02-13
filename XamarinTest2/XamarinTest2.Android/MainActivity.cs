@@ -30,7 +30,12 @@ namespace XamarinTest2.Droid
         {
             PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
-       
+
+        public override void OnBackPressed()
+        {
+            Recreate();
+        }
+
     }
 }
 

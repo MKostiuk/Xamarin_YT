@@ -307,5 +307,5 @@ C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x64\
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x64\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.RateAppPage.xaml.g.cs
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x64\Debug\Plugin.Permissions.pri.xml
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x64\Debug\Plugin.Media.pri.xml
-C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x64\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.Main.xaml.g.cs
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x64\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.RestPosts.xaml.g.cs
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x64\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.MainMenu.xaml.g.cs
