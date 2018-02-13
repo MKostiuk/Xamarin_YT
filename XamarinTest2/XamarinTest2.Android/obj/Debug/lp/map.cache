@@ -1,5 +1,18 @@
-System.Runtime
 FormsViewGroup
+Google.Apis.Core
+Google.Apis
+Microsoft.ProjectOxford.Common
+Microsoft.ProjectOxford.Emotion
+Newtonsoft.Json
+Plugin.CurrentActivity
+Plugin.Media.Abstractions
+Plugin.Media
+Plugin.Permissions.Abstractions
+Plugin.Permissions
+System.Runtime
+Xamarin.Android.Arch.Core.Common
+Xamarin.Android.Arch.Lifecycle.Common
+Xamarin.Android.Arch.Lifecycle.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
@@ -20,11 +33,6 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
-System.ComponentModel
-System.Reflection.Extensions
-Google.Apis.Core
-Google.Apis
-Newtonsoft.Json
 System.Threading.Tasks
 System.Diagnostics.Debug
 System.Collections
@@ -32,6 +40,7 @@ System.IO.FileSystem
 System.Threading
 System.Net.Primitives
 System.Text.Encoding
+System.Reflection.Extensions
 System.Globalization
 System.Console
 System.Runtime.Numerics
@@ -43,3 +52,4 @@ System.ObjectModel
 System.Xml.ReaderWriter
 System.Reflection.Primitives
 System.Text.Encoding.Extensions
+System.ComponentModel

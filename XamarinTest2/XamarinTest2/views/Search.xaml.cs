@@ -13,7 +13,6 @@ namespace XamarinTest2.views
 	public partial class Search : ContentPage
 	{
 
-        public string s;
 		public Search ()
 		{
 			InitializeComponent ();
@@ -21,7 +20,7 @@ namespace XamarinTest2.views
 
         void SearchVideo(Object sender)
         {
-            Application.Current.MainPage =  new PageFeedYouTube(s);
+            Application.Current.MainPage =  new PageFeedYouTube(entry.Text);
             
         }
 	}

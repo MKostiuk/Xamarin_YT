@@ -15,11 +15,27 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)objects\Post.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)objects\VideoInformation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)objects\VideoItemHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)util\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)util\IFileHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)util\RestConsumer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\YTSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)views\Main.xaml.cs">
+      <DependentUpon>Main.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)views\PageFeedYouTube.xaml.cs">
       <DependentUpon>PageFeedYouTube.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)views\RateAppPage.xaml.cs">
+      <DependentUpon>RateAppPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)views\RestPosts.xaml.cs">
+      <DependentUpon>RestPosts.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)views\Search.xaml.cs">
@@ -35,6 +51,24 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\Search.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\RateAppPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\Main.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\RestPosts.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
