@@ -105,6 +105,11 @@
     <None Include="XamarinTest2.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="hamburger_menu.png" />
+    <AndroidResource Include="icon.png" />
+    <AndroidResource Include="menu_emotions.png" />
+    <AndroidResource Include="menu_posts.png" />
+    <AndroidResource Include="menu_recherche.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-100.png" />
     <Content Include="Assets\LockScreenLogo.scale-125.png" />

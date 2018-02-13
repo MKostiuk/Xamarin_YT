@@ -24,7 +24,7 @@ namespace XamarinTest2.views
             {
                 new MainMenuItem() { Title = "Recherche", Icon = "menu_recherche.png", TargetType = typeof(Search) },
                 new MainMenuItem() { Title = "Emotions", Icon = "menu_emotions.png", TargetType = typeof(RateAppPage) },
-                new MainMenuItem() { Title = "Posts", Icon = "menu_posts.png", TargetType = typeof(RestPosts)}
+                new MainMenuItem() { Title = "Posts", Icon = "menu_posts.png", TargetType = typeof(NotImplementedPage)}
             };
 
             // Set the default page, this is the "home" page.
@@ -49,7 +49,7 @@ namespace XamarinTest2.views
                 }
                 else if (item.Title.Equals("Posts"))
                 {
-                    Detail = new NavigationPage(new RestPosts());
+                    Detail = new NavigationPage(new NotImplementedPage());
                 }
 
                 MenuListView.SelectedItem = null;
