@@ -11,7 +11,7 @@
             <Entry Placeholder="Video" Text="" IsVisible="True" IsEnabled="True" IsPassword="False" x:Name="Vid" />
            
             
-            <Button Text="Recherche" Pressed="SearchVideo"/>
+            <Button Text="Recherche" Pressed="SearchVideo" x:Name="RechercheBtn"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

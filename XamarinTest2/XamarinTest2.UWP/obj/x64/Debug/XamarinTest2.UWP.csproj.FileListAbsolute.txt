@@ -309,3 +309,7 @@ C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x64\
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x64\Debug\Plugin.Media.pri.xml
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x64\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.RestPosts.xaml.g.cs
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x64\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.MainMenu.xaml.g.cs
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x64\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.NotImplementedPage.xaml.g.cs
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x64\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.PostView.xaml.g.cs
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x64\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.SaveFileView.xaml.g.cs
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x64\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.LoadFileView.xaml.g.cs

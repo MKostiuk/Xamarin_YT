@@ -17,11 +17,13 @@ namespace XamarinTest2.views
 		public Search ()
 		{
 			InitializeComponent ();
-		}
+            Vid.Text = "lol";
+            RechercheBtn.Command = new Command(() => SearchVideo(Vid.Text));
+        }
 
-        void SearchVideo(Object sender)
+        void SearchVideo(string videText)
         {
-            var ResultPage = new PageFeedYouTube(Vid.Text);
+            var ResultPage = new PageFeedYouTube(videText);
             Navigation.PushAsync(ResultPage);
         }
 	}
