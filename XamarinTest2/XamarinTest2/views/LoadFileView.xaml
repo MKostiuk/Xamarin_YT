@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Contenu du fichier temp.txt"/>
-            <Label x:Name="labelText"/>
+            <Label x:Name="labelText" FontSize="Large"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
