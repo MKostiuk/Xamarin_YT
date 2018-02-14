@@ -21,8 +21,13 @@
     <Compile Include="$(MSBuildThisFileDirectory)objects\VideoItemHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\Constants.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\IFileHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)util\ISaveAndLoad.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\RestConsumer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\YTSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)views\LoadFileView.xaml.cs">
+      <DependentUpon>LoadFileView.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)views\MainMenu.xaml.cs">
       <DependentUpon>MainMenu.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -45,6 +50,10 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)views\RestPosts.xaml.cs">
       <DependentUpon>RestPosts.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)views\SaveFileView.xaml.cs">
+      <DependentUpon>SaveFileView.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)views\Search.xaml.cs">
@@ -90,6 +99,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\PostView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\SaveFileView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\LoadFileView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

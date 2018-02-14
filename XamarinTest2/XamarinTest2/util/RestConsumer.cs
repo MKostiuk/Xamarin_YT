@@ -25,7 +25,6 @@ namespace XamarinTest2.util
 
         public async Task<List<Post>> Request()
         {
-            var uri = new Uri(String.Format("https://jsonplaceholder.typicode.com/posts", String.Empty));
             client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com/");
 
             try
