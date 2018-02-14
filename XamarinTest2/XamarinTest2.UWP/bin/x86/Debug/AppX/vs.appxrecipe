@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-02-14T10:52:43.999</Modified>
+      <Modified>2018-02-14T13:07:49.963</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\XamarinTest2.UWP.exe">
       <PackagePath>entrypoint\XamarinTest2.UWP.exe</PackagePath>
-      <Modified>2018-02-14T10:52:42.837</Modified>
+      <Modified>2018-02-14T13:07:47.757</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\microsoft.projectoxford.common\2.0.25\lib\netstandard1.1\Microsoft.ProjectOxford.Common.dll">
       <PackagePath>Microsoft.ProjectOxford.Common.dll</PackagePath>
@@ -908,11 +908,11 @@
     <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-02-14T10:52:43.510</Modified>
+      <Modified>2018-02-14T13:07:49.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\Core\XamarinTest2.UWP.exe">
       <PackagePath>XamarinTest2.UWP.exe</PackagePath>
-      <Modified>2018-02-14T10:52:43.992</Modified>
+      <Modified>2018-02-14T13:07:49.955</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
