@@ -32,6 +32,13 @@ namespace XamarinTest2.views
             base.OnAppearing();
             PostsView.ItemsSource = await service.Request();
         }
+
+        private void PostSelected(Object sender, SelectedItemChangedEventArgs e)
+        {
+            var PostPage = new PostView();
+            PostPage.BindingContext = e.SelectedItem as Post;
+            Navigation.PushAsync(PostPage);
+        }
         
 	}
 }

@@ -17,7 +17,6 @@ namespace XamarinTest2.views
 		public Search ()
 		{
 			InitializeComponent ();
-            Vid.Text = "lol";
 		}
 
         void SearchVideo(Object sender)

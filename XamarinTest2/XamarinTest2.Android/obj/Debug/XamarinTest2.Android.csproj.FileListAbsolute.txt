@@ -43,6 +43,7 @@ C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\XamarinTest2.Android.dll.mdb
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\XamarinTest2.Droid.views.PostView.xaml.g.cs
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\bin\Debug\XamarinTest2.Android.dll
 bin\Debug\FormsViewGroup.dll.mdb
 bin\Debug\Plugin.Media.dll.mdb

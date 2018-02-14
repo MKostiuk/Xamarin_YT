@@ -7,7 +7,7 @@
             <Label Text="POSTS!!!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <ListView x:Name="PostsView" RowHeight="100" WidthRequest="100">
+            <ListView x:Name="PostsView" RowHeight="100" WidthRequest="100" ItemSelected="PostSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
