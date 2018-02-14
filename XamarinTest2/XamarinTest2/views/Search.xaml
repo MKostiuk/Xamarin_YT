@@ -8,7 +8,8 @@
             <Label Text="Recherche YouTube!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Entry Placeholder="Video" x:Name="entry" />
+            <Entry Placeholder="Video" Text="" IsVisible="True" IsEnabled="True" IsPassword="True" x:Name="Vid" />
+           
             
             <Button Text="Recherche" Pressed="SearchVideo"/>
         </StackLayout>

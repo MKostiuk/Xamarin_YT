@@ -25,17 +25,12 @@ namespace XamarinTest2.views
 
             Posts = new ObservableCollection<Post>();
 
-            GetPosts();
-
-            PostsView.ItemsSource = Posts;
         }
 
-        public void GetPosts()
+        protected async override void OnAppearing()
         {
-            service.Request().Wait();
-             foreach (Post p in service.Request().Result)
-                Posts.Add(p);
-            PostsView.ItemsSource = Posts;
+            base.OnAppearing();
+            PostsView.ItemsSource = await service.Request();
         }
         
 	}

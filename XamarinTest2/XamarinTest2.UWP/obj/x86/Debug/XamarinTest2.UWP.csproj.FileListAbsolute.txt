@@ -305,7 +305,8 @@ C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\Plugin.Media.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\Plugin.Media.pdb
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.RateAppPage.xaml.g.cs
-C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.Main.xaml.g.cs
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\Plugin.Permissions.pri.xml
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\Plugin.Media.pri.xml
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.RestPosts.xaml.g.cs
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.MainMenu.xaml.g.cs
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.NotImplementedPage.xaml.g.cs

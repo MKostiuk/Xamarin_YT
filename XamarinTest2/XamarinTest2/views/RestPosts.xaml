@@ -12,8 +12,8 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Orientation="Horizontal" Padding="5,5,5,5" >
+                                <Label Text="Titre : "/>
                                 <Label Text="{x:Binding title}}"/>
-                                <Label Text="{x:Binding body}}"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

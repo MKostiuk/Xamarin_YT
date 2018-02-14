@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>2C723B4DC4E9134A50A3AAC6C994CF9443F594939A569DAC8822D23B69032635</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>C2CC66ED133BEB4F3B86D538FEDCA091529657A6CB7A6A2814AB8D6C2D2640F8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ec0cc741-fd3e-485c-81be-68815c480690_1.0.0.0_x86__hma5z8g0e8z20</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ec0cc741-fd3e-485c-81be-68815c480690_hma5z8g0e8z20!App</RegisteredUserModeAppID>
     <RegisteredPackageID>ec0cc741-fd3e-485c-81be-68815c480690</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-02-13T15:06:46.585</Modified>
+      <Modified>2018-02-14T10:12:18.307</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\XamarinTest2.UWP.exe">
       <PackagePath>entrypoint\XamarinTest2.UWP.exe</PackagePath>
-      <Modified>2018-02-13T15:06:43.931</Modified>
+      <Modified>2018-02-14T10:12:17.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\microsoft.projectoxford.common\2.0.25\lib\netstandard1.1\Microsoft.ProjectOxford.Common.dll">
       <PackagePath>Microsoft.ProjectOxford.Common.dll</PackagePath>
@@ -908,11 +908,11 @@
     <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-02-13T15:06:45.876</Modified>
+      <Modified>2018-02-14T10:12:17.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\Core\XamarinTest2.UWP.exe">
       <PackagePath>XamarinTest2.UWP.exe</PackagePath>
-      <Modified>2018-02-13T15:06:46.578</Modified>
+      <Modified>2018-02-14T10:12:18.301</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
