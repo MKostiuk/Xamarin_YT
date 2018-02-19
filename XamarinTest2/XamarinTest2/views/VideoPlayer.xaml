@@ -5,6 +5,6 @@
              xmlns:roxv="clr-namespace:Rox;assembly=Rox.Xamarin.Video.Portable"
              Title="Lecteur Vidéo">
 
-    <WebView HeightRequest="500" WidthRequest="500" Source="https://www.youtube.com/watch?v=2bjk26RwjyU"/>
+    <WebView HeightRequest="500" WidthRequest="500" Source="{Binding Url}"/>
 
 </ContentPage>
