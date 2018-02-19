@@ -23,6 +23,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)util\IFileHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\ISaveAndLoad.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\RestConsumer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)util\SqlClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)util\SQLiteClient.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\YTSearch.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)views\LoadFileView.xaml.cs">
       <DependentUpon>LoadFileView.xaml</DependentUpon>
@@ -38,6 +40,14 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)views\PageFeedYouTube.xaml.cs">
       <DependentUpon>PageFeedYouTube.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)views\PostEditSql.xaml.cs">
+      <DependentUpon>PostEditSql.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)views\PostSql.xaml.cs">
+      <DependentUpon>PostSql.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)views\PostView.xaml.cs">
@@ -58,6 +68,10 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)views\Search.xaml.cs">
       <DependentUpon>Search.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)views\VideoPlayer.xaml.cs">
+      <DependentUpon>VideoPlayer.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -111,6 +125,24 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\LoadFileView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\PostSql.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\PostEditSql.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\VideoPlayer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

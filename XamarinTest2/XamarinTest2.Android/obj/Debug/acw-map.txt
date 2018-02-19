@@ -6,6 +6,18 @@ Plugin.Media.MediaPickerActivity, Plugin.Media;md5dff1bed22da39876f271fd39214b8f
 Plugin.Media.MediaPickerActivity, Plugin.Media, Version=3.1.3.0, Culture=neutral, PublicKeyToken=null;md5dff1bed22da39876f271fd39214b8f60.MediaPickerActivity
 Plugin.Media.MediaPickerActivity;md5dff1bed22da39876f271fd39214b8f60.MediaPickerActivity
 plugin.media.MediaPickerActivity;md5dff1bed22da39876f271fd39214b8f60.MediaPickerActivity
+Rox.VideoCompletion, Rox.Xamarin.Video.Android;md5d618780a20191c55fb86309117fe520e.VideoCompletion
+Rox.VideoCompletion, Rox.Xamarin.Video.Android, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null;md5d618780a20191c55fb86309117fe520e.VideoCompletion
+Rox.VideoCompletion;md5d618780a20191c55fb86309117fe520e.VideoCompletion
+rox.VideoCompletion;md5d618780a20191c55fb86309117fe520e.VideoCompletion
+Rox.VideoPreparation, Rox.Xamarin.Video.Android;md5d618780a20191c55fb86309117fe520e.VideoPreparation
+Rox.VideoPreparation, Rox.Xamarin.Video.Android, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null;md5d618780a20191c55fb86309117fe520e.VideoPreparation
+Rox.VideoPreparation;md5d618780a20191c55fb86309117fe520e.VideoPreparation
+rox.VideoPreparation;md5d618780a20191c55fb86309117fe520e.VideoPreparation
+Rox.VideoRenderer, Rox.Xamarin.Video.Android;md5d618780a20191c55fb86309117fe520e.VideoRenderer
+Rox.VideoRenderer, Rox.Xamarin.Video.Android, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null;md5d618780a20191c55fb86309117fe520e.VideoRenderer
+Rox.VideoRenderer;md5d618780a20191c55fb86309117fe520e.VideoRenderer
+rox.VideoRenderer;md5d618780a20191c55fb86309117fe520e.VideoRenderer
 Android.Support.V4.Widget.SearchViewCompat/IOnCloseListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat+IOnCloseListenerImplementor, Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat.IOnCloseListenerImplementor;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor

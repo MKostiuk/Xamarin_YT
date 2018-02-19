@@ -24,6 +24,11 @@
   </Jars>
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\6\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\56\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\57\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\58\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\59\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\60\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\17\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\20\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\22\jl\res</ResolvedResourceDirectory>
@@ -36,11 +41,21 @@
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\lp\6\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\56\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\57\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\58\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\59\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\60\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\lp\24\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
     <ResolvedResourceDirectoryStamp>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\6.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\56.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\57.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\58.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\59.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\60.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\17.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\20.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\lp\22.stamp</ResolvedResourceDirectoryStamp>

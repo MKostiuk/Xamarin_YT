@@ -4,11 +4,15 @@ using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
+using XamarinTest2.util;
 
 namespace XamarinTest2
 {
 	public partial class App : Application
 	{
+
+        static SQLiteClient database;
+
 		public App ()
 		{
 			InitializeComponent();
@@ -16,7 +20,19 @@ namespace XamarinTest2
 			MainPage = new XamarinTest2.views.MainMenu();
 		}
 
-		protected override void OnStart ()
+        public static SQLiteClient Database
+        {
+            get
+            {
+                if (database == null)
+                {
+                    database = new SQLiteClient(DependencyService.Get<IFileHelper>().GetLocalFilePath("TodoSQLite.db3"));
+                }
+                return database;
+            }
+        }
+
+        protected override void OnStart ()
 		{
 			// Handle when your app starts
 		}

@@ -14,7 +14,16 @@ C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Plugin.Media.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Plugin.Permissions.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Rox.Xamarin.Video.Android.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Rox.Xamarin.Video.Portable.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\SQLite-net.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\SQLitePCLRaw.batteries_green.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\SQLitePCLRaw.core.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\System.Core.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\System.Data.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\System.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\System.IO.Compression.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\System.Net.Http.dll
@@ -78,5 +87,8 @@ C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\System.Reflection.Primitives.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\System.Transactions.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Mono.Data.Tds.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Mono.Security.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll

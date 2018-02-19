@@ -7,7 +7,8 @@
         <StackLayout>
             <Label Text="Recherche YouTube!"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                x:Name="lbl"/>
             <Entry Placeholder="Video" Text="" IsVisible="True" IsEnabled="True" IsPassword="False" x:Name="Vid" />
            
             

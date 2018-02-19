@@ -8,11 +8,11 @@
             <Label Text=" Recherche YouTube!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <ListView x:Name="VideosView" RowHeight="100" WidthRequest="100">
+            <ListView x:Name="VideosView" RowHeight="100" WidthRequest="100" ItemSelected="OnItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell Tapped="OnCellTapped">
-                            <StackLayout Orientation="Horizontal" Padding="5,5,5,5" >
+                            <StackLayout Orientation="Horizontal" Padding="5,5,5,5">
                                 <Image Source="{x:Binding Thumbnail}}"   />
                                 <Label Text="{x:Binding Title}}"/>
                                 <Label Text="{x:Binding Author}}"/>

@@ -53,3 +53,15 @@ System.Xml.ReaderWriter
 System.Reflection.Primitives
 System.Text.Encoding.Extensions
 System.ComponentModel
+SQLite-net
+SQLitePCLRaw.batteries_green
+SQLitePCLRaw.batteries_v2
+SQLitePCLRaw.core
+SQLitePCLRaw.lib.e_sqlite3
+SQLitePCLRaw.provider.e_sqlite3
+Octane.Xamarin.Forms.VideoPlayer.Android
+Octane.Xamarin.Forms.VideoPlayer
+System.Diagnostics.Tools
+Rox.Xamarin.Video.Android
+Rox.Xamarin.Video.Portable
+System.Resources.ResourceManager

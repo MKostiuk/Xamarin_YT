@@ -40,6 +40,15 @@ namespace XamarinTest2.views
             cell.ForceUpdateSize();
         }
 
-       
+       async void OnItemSelected(Object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e != null)
+            {
+                await Navigation.PushAsync(new VideoPlayer
+                {
+                    BindingContext = e.SelectedItem as VideoInformation
+                });
+            }
+        }
 	}
 }
