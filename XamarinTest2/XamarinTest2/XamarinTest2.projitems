@@ -23,6 +23,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)util\IFileHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\ISaveAndLoad.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\RestConsumer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)util\RoundedButton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\SqlClient.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\SQLiteClient.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\YTSearch.cs" />

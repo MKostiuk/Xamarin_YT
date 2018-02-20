@@ -4,7 +4,18 @@
              x:Class="XamarinTest2.App">
 	<Application.Resources>
 
-		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+           
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="Red"/>
+               <!-- <Setter Property="CornerRadius" Value="1.3"/> -->
+                <Setter Property="BackgroundColor" Value="Black"/>
+                <Setter Property="HeightRequest" Value="119"/>
+                <Setter Property="WidthRequest" Value="119"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+        </ResourceDictionary>
 
 	</Application.Resources>
 </Application>

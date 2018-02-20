@@ -1,18 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinTest2.util"
              x:Class="XamarinTest2.views.PostEditSql">
     <ContentPage.Content>
-        <StackLayout Margin="20" VerticalOptions="StartAndExpand">
-            <Label Text="Title"/>
-            <Entry Text="{Binding title}"/>
-            <Label Text="Body"/>
-            <Entry Text="{Binding body}"/>
-            <Label Text="Author"/>
-            <Entry Text="{Binding userId}"/>
-            <Button Text="Sauvegarder" Clicked="OnSaveClicked"/>
-            <Button Text="Supprimer" Clicked="OnDeleteClicked"/>
-            <Button Text="Annuler" Clicked="OnCancelClicked"/>
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
+                <Label Text="Title"/>
+                <Entry Text="{Binding title}"/>
+            </StackLayout>
+            <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3">
+                <Label Text="Body"/>
+                <Entry Text="{Binding body}"/>
+            </StackLayout>
+            <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3">
+                <Label Text="Author"/>
+                <Entry Text="{Binding userId}" />
+            </StackLayout>
+            <local:RoundedButton Text="Sauvegarder" Clicked="OnSaveClicked" Style="{StaticResource buttonStyle}" Grid.Row="3" Grid.Column="0"/>
+            <local:RoundedButton Text="Supprimer" Clicked="OnDeleteClicked" Style="{StaticResource buttonStyle}" Grid.Row="3" Grid.Column="1"/>
+            <local:RoundedButton Text="Annuler" Clicked="OnCancelClicked" Style="{StaticResource buttonStyle}" Grid.Row="3" Grid.Column="2"/>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

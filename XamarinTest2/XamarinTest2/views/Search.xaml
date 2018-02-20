@@ -2,17 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinTest2.views.Search"
+             xmlns:local="clr-namespace:XamarinTest2.util"
              Title="Recherche">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Recherche YouTube!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" 
-                x:Name="lbl"/>
-            <Entry Placeholder="Video" Text="" IsVisible="True" IsEnabled="True" IsPassword="False" x:Name="Vid" />
-           
-            
-            <Button Text="Recherche" Pressed="SearchVideo"/>
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Entry Placeholder="Video" Text="" IsVisible="True" IsEnabled="True" IsPassword="False" x:Name="Vid" Grid.Row="0" Grid.Column="0" VerticalOptions="Start"/>
+            <local:RoundedButton Text="Recherche" Pressed="SearchVideo" Style="{StaticResource buttonStyle}" Grid.Row="1" Grid.Column="0"/>
+        </Grid>
+       
     </ContentPage.Content>
 </ContentPage>
