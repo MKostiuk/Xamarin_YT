@@ -5,7 +5,11 @@
 	<Application.Resources>
 
         <ResourceDictionary>
-           
+            <Color x:Key="backgroundColor">#33302E</Color>
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#33302E"/>
+                <Setter Property="BarTextColor" Value="White"/>
+            </Style>
             <Style x:Key="buttonStyle" TargetType="Button">
                 <Setter Property="TextColor" Value="Red"/>
                <!-- <Setter Property="CornerRadius" Value="1.3"/> -->
@@ -14,6 +18,14 @@
                 <Setter Property="WidthRequest" Value="119"/>
                 <Setter Property="VerticalOptions" Value="Center"/>
                 <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+            <Style x:Key="entryStyle" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="Black"/>
+                <Setter Property="TextColor" Value="Red"/>
+                <Setter Property="PlaceholderColor" Value="Red"/>
+            </Style>
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="Red"/>
             </Style>
         </ResourceDictionary>
 

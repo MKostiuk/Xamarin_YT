@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinTest2.views.Search"
              xmlns:local="clr-namespace:XamarinTest2.util"
-             Title="Recherche">
+             Title="Recherche"
+             BackgroundColor="{StaticResource backgroundColor}">
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
@@ -13,8 +14,22 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Entry Placeholder="Video" Text="" IsVisible="True" IsEnabled="True" IsPassword="False" x:Name="Vid" Grid.Row="0" Grid.Column="0" VerticalOptions="Start"/>
-            <local:RoundedButton Text="Recherche" Pressed="SearchVideo" Style="{StaticResource buttonStyle}" Grid.Row="1" Grid.Column="0"/>
+            <Entry Placeholder="Video" 
+                   Text="" IsVisible="True" 
+                   IsEnabled="True" 
+                   IsPassword="False" 
+                   x:Name="Vid" 
+                   Grid.Row="0" 
+                   Grid.Column="0" 
+                   VerticalOptions="Start" 
+                   Style="{StaticResource entryStyle}" 
+                   />
+            <local:RoundedButton Text="Recherche" 
+                                 Pressed="SearchVideo" 
+                                 Style="{StaticResource buttonStyle}" 
+                                 Grid.Row="1" 
+                                 Grid.Column="0"
+                                 />
         </Grid>
        
     </ContentPage.Content>

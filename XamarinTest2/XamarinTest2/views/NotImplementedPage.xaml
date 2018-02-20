@@ -2,11 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinTest2.views.NotImplementedPage"
-             Title="COUCOU!">
+             Title="COUCOU!"
+             BackgroundColor="{StaticResource backgroundColor}">
     <ContentPage.Content>
         <StackLayout>
             <Image Source="desert.bmp" />
-            <Label Text="Rien ici pour l'instant!!!"/>
+            <Label Text="Rien ici pour l'instant!!!" Style="{StaticResource labelStyle}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
