@@ -5,6 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 using XamarinTest2.util;
+using Plugin.Multilingual;
 
 namespace XamarinTest2
 {
@@ -17,7 +18,8 @@ namespace XamarinTest2
 		{
 			InitializeComponent();
 
-			MainPage = new XamarinTest2.views.MainMenu();
+            
+            MainPage = new XamarinTest2.views.MainMenu();
 		}
 
         public static SQLiteClient Database

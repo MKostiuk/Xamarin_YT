@@ -52,6 +52,7 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>false</UseDotNetNativeToolchain>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
     <OutputPath>bin\x64\Release\</OutputPath>
@@ -111,6 +112,9 @@
     <AndroidResource Include="menu_emotions.png" />
     <AndroidResource Include="menu_posts.png" />
     <AndroidResource Include="menu_recherche.png" />
+    <AndroidResource Include="Assets\hamburger_menu.png" />
+    <AndroidResource Include="desert.bmp" />
+    <AndroidResource Include="Assets\desert.bmp" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-100.png" />
     <Content Include="Assets\LockScreenLogo.scale-125.png" />
@@ -157,6 +161,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.ProjectOxford.Emotion">
       <Version>2.0.40</Version>
+    </PackageReference>
+    <PackageReference Include="Plugin.Multilingual">
+      <Version>1.0.2</Version>
     </PackageReference>
     <PackageReference Include="Rox.Xamarin.Video">
       <Version>2.1.0</Version>

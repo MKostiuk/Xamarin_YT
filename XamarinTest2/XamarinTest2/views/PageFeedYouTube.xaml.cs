@@ -23,12 +23,8 @@ namespace XamarinTest2.views
 		{
 			InitializeComponent ();
 
-            this.Videos = new ObservableCollection<VideoInformation>();
+            this.Videos = new ObservableCollection<VideoInformation>(vs.SearchQuery(querry, 1));
 
-            foreach (VideoInformation vi in vs.SearchQuery(querry, 1))
-                this.Videos.Add(vi);
-          
-           
             VideosView.ItemsSource = this.Videos;
 		}
 

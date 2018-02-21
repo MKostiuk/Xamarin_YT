@@ -37,11 +37,23 @@
     <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\newtonsoft.json\10.0.2\lib\netstandard1.3\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\plugin.multilingual\1.0.2\lib\UAP10\Plugin.Multilingual.Abstractions.dll">
+      <PackagePath>Plugin.Multilingual.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\plugin.multilingual\1.0.2\lib\UAP10\Plugin.Multilingual.dll">
+      <PackagePath>Plugin.Multilingual.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\plugin.permissions\2.2.1\lib\UAP10\Plugin.Permissions.Abstractions.dll">
       <PackagePath>Plugin.Permissions.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\plugin.permissions\2.2.1\lib\UAP10\Plugin.Permissions.dll">
       <PackagePath>Plugin.Permissions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\rox.xamarin.video\2.1.0\lib\UAP10\Rox.Xamarin.Video.Portable.dll">
+      <PackagePath>Rox.Xamarin.Video.Portable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\rox.xamarin.video\2.1.0\lib\UAP10\Rox.Xamarin.Video.Uwp.dll">
+      <PackagePath>Rox.Xamarin.Video.Uwp.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.0.7\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -534,6 +546,24 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.0.7\runtimes\win10-x86\lib\uap10.0.15138\netstandard.dll">
       <PackagePath>netstandard.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\sqlite-net-pcl\1.4.118\lib\netstandard1.1\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\sqlitepclraw.bundle_green\1.1.5\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
+      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\sqlitepclraw.bundle_green\1.1.5\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\sqlitepclraw.core\1.1.5\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.5\runtimes\win10-x86\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.5\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\xam.plugin.media\3.1.3\lib\UAP10\Plugin.Media.Abstractions.dll">
       <PackagePath>Plugin.Media.Abstractions.dll</PackagePath>

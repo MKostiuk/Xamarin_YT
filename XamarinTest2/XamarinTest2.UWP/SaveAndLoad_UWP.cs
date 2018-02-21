@@ -8,8 +8,8 @@ using Xamarin.Forms;
 using XamarinTest2.util;
 using XamarinTest2.UWP;
 
-[assembly: Dependency(typeof(SaveAndLoad_UWP))]
 
+[assembly: Dependency(typeof(SaveAndLoad_UWP))]
 namespace XamarinTest2.UWP
 {
     class SaveAndLoad_UWP : ISaveAndLoad

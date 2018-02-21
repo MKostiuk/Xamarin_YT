@@ -12,6 +12,8 @@ C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Plugin.CurrentActivity.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Plugin.Media.Abstractions.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Plugin.Media.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Plugin.Multilingual.Abstractions.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Plugin.Multilingual.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Plugin.Permissions.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\android\assets\Rox.Xamarin.Video.Android.dll
