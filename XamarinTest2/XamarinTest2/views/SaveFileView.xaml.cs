@@ -21,7 +21,7 @@ namespace XamarinTest2.views
 			InitializeComponent ();
 		}
 
-        protected async void OnAppliquerPressed(Object sender)
+        protected async void OnAppliquerPressed(Object sender, EventArgs e)
         {
             var fileService = DependencyService.Get<ISaveAndLoad>();
             await fileService.SaveTextAsync(filename, entryText.Text);

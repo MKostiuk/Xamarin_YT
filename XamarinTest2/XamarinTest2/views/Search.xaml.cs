@@ -19,7 +19,7 @@ namespace XamarinTest2.views
 			InitializeComponent ();
 		}
 
-        void SearchVideo(Object sender)
+        void SearchVideo(Object sender, EventArgs e)
         {
             var ResultPage = new PageFeedYouTube(Vid.Text);
             Navigation.PushAsync(ResultPage);

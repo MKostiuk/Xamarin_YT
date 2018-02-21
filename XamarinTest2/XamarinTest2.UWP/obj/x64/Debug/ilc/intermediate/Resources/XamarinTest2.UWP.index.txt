@@ -1,0 +1,4 @@
+XamarinTest2.UWP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  XamarinTest2.UWP.App.xaml
+  XamarinTest2.UWP.views.RateAppPage.xaml
+  XamarinTest2.UWP.views.MainMenu.xaml

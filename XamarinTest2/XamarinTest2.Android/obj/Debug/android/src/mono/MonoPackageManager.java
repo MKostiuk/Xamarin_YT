@@ -116,6 +116,8 @@ class MonoPackageManager_Resources {
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Media.Abstractions.dll",
 		"Plugin.Media.dll",
+		"Plugin.Multilingual.Abstractions.dll",
+		"Plugin.Multilingual.dll",
 		"Plugin.Permissions.Abstractions.dll",
 		"Plugin.Permissions.dll",
 		"Rox.Xamarin.Video.Android.dll",
