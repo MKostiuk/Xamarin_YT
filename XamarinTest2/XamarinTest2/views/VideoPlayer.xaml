@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinTest2.views.VideoPlayer"
              xmlns:roxv="clr-namespace:Rox;assembly=Rox.Xamarin.Video.Portable"
+             xmlns:local="using:XamarinTest2.controls"
              Title="Lecteur Vidéo">
 
-    <WebView HeightRequest="500" WidthRequest="500" Source="{Binding Url}"/>
-
+    <!--<WebView HeightRequest="500" WidthRequest="500" Source="{Binding Url}"/>-->
+    <local:VideoView Video="{Binding}" />
 </ContentPage>

@@ -11,12 +11,6 @@ namespace XamarinTest2.objects
         public string Author { get; set; }
         public string Duration { get; set; }
         public string Url { get; set; }
-        public string Thumbnail { get; set; }
-
-       
-
-       
-
-        
+        public string Thumbnail { get; set; }     
     }
 }
