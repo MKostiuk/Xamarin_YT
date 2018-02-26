@@ -583,8 +583,8 @@
     <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\xamarin.forms\2.5.0.280555\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\icon.png">
+      <PackagePath>icon.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
@@ -704,6 +704,15 @@
     <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\desert.bmp">
+      <PackagePath>desert.bmp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\Videos\UWPApiVideo.mp4">
+      <PackagePath>Videos\UWPApiVideo.mp4</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\XamarinTest2.UWP.xr.xml">
       <PackagePath>XamarinTest2.UWP.xr.xml</PackagePath>

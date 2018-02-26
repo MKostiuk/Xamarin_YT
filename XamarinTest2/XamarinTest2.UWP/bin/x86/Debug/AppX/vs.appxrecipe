@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>C2CC66ED133BEB4F3B86D538FEDCA091529657A6CB7A6A2814AB8D6C2D2640F8</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>046BE772324E8C0AF65009741066D65DD363B9203B43B0C10519763AC7A190CC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ec0cc741-fd3e-485c-81be-68815c480690_1.0.0.0_x86__hma5z8g0e8z20</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ec0cc741-fd3e-485c-81be-68815c480690_hma5z8g0e8z20!App</RegisteredUserModeAppID>
     <RegisteredPackageID>ec0cc741-fd3e-485c-81be-68815c480690</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-02-21T16:16:28.194</Modified>
+      <Modified>2018-02-26T16:53:48.993</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\XamarinTest2.UWP.exe">
       <PackagePath>entrypoint\XamarinTest2.UWP.exe</PackagePath>
-      <Modified>2018-02-21T16:16:24.471</Modified>
+      <Modified>2018-02-26T16:53:47.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\.nuget\packages\microsoft.projectoxford.common\2.0.25\lib\netstandard1.1\Microsoft.ProjectOxford.Common.dll">
       <PackagePath>Microsoft.ProjectOxford.Common.dll</PackagePath>
@@ -779,9 +779,9 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2018-02-14T18:07:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-01-31T14:35:41.914</Modified>
+    <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\icon.png">
+      <PackagePath>icon.png</PackagePath>
+      <Modified>2018-02-13T16:41:56.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
@@ -933,6 +933,18 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-01-31T14:35:41.906</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\desert.bmp">
+      <PackagePath>desert.bmp</PackagePath>
+      <Modified>2018-02-21T14:20:42.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-01-31T14:35:41.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\Videos\UWPApiVideo.mp4">
+      <PackagePath>Videos\UWPApiVideo.mp4</PackagePath>
+      <Modified>2018-02-26T14:57:53.854</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\XamarinTest2.UWP.xr.xml">
       <PackagePath>XamarinTest2.UWP.xr.xml</PackagePath>
       <Modified>2018-02-07T13:50:37.636</Modified>
@@ -948,11 +960,11 @@
     <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-02-21T16:16:27.332</Modified>
+      <Modified>2018-02-26T16:53:48.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\Core\XamarinTest2.UWP.exe">
       <PackagePath>XamarinTest2.UWP.exe</PackagePath>
-      <Modified>2018-02-21T16:16:28.185</Modified>
+      <Modified>2018-02-26T16:53:48.986</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

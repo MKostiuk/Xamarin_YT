@@ -40,7 +40,7 @@ namespace XamarinTest2.views
         {
             if (e != null)
             {
-                await Navigation.PushAsync(new VideoPlayer
+                await Navigation.PushAsync(new VideoWebPlayer
                 {
                     BindingContext = e.SelectedItem as VideoInformation
                 });

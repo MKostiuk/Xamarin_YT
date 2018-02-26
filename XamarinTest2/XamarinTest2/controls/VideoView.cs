@@ -8,6 +8,8 @@ namespace XamarinTest2.controls
 {
     class VideoView : View
     {
+
+        //Source VideoInformation
         public static readonly BindableProperty VideoProperty = BindableProperty.Create(
             propertyName:"Video",
             returnType: typeof(VideoInformation),
@@ -19,6 +21,34 @@ namespace XamarinTest2.controls
         {
             get { return (VideoInformation)GetValue(VideoProperty);  }
             set { SetValue(VideoProperty, value); }
+        }
+
+        //AutoPlay Property
+        public static readonly BindableProperty AutoPlayProperty = BindableProperty.Create(
+            propertyName:"AutoPlay",
+            returnType: typeof(Boolean),
+            declaringType: typeof(VideoView),
+            defaultValue : true
+            );
+
+        public bool AutoPlay
+        {
+            get { return (bool)GetValue(AutoPlayProperty); }
+            set { SetValue(AutoPlayProperty, value); }
+        }
+
+        //AreTransportControlEnabled Property
+        public static readonly BindableProperty AreTransportControlProperty = BindableProperty.Create(
+            propertyName:"AreTransportControlProperty",
+            returnType: typeof(Boolean),
+            declaringType: typeof(VideoView),
+            defaultValue: false
+            );
+
+        public bool AreTransportControlEnabled
+        {
+            get { return (bool)GetValue(AreTransportControlProperty); }
+            set { SetValue(AreTransportControlProperty, value); }
         }
     }
 }

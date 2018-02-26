@@ -315,7 +315,6 @@ C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.LoadFileView.xaml.g.cs
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.PostSql.xaml.g.cs
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.PostEditSql.xaml.g.cs
-C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.VideoPlayer.xaml.g.cs
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\e_sqlite3.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\Plugin.Multilingual.Abstractions.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\Plugin.Multilingual.Abstractions.pdb
@@ -330,3 +329,6 @@ C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\SQLitePCLRaw.core.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\Plugin.Multilingual.pri.xml
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.VideoWebPlayer.xaml.g.cs
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.VideoPlayer.xaml.g.cs
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.UWP\obj\x86\Debug\XamarinTest2.UWP.C_.Users.Admin2.source.repos.XamarinTest2.XamarinTest2.XamarinTest2.views.PickVideo.xaml.g.cs

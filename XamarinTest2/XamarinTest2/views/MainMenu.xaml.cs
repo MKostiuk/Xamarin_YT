@@ -27,7 +27,8 @@ namespace XamarinTest2.views
                 new MainMenuItem() { Title = "Posts", Icon = "menu_posts.png", TargetType = typeof(RestPosts)},
                 new MainMenuItem() {Title = "Sauvegarder", Icon = "menu_sauvegarder.png", TargetType = typeof(SaveFileView)},
                 new MainMenuItem() { Title = "Charger", Icon = "menu_charger.png", TargetType = typeof(LoadFileView)},
-                new MainMenuItem() { Title = "BDD", Icon = "menu_bdd.png", TargetType = typeof(PostSql)}
+                new MainMenuItem() { Title = "BDD", Icon = "menu_bdd.png", TargetType = typeof(PostSql) },
+                new MainMenuItem() { Title = "Lecteur Vidéo", Icon = "play.png", TargetType = typeof(PickVideo)}
             };
 
             // Set the default page, this is the "home" page.
@@ -65,6 +66,10 @@ namespace XamarinTest2.views
                 else if (item.Title.Equals("BDD"))
                 {
                     Detail = new NavigationPage(new PostSql());
+                }
+                else if (item.Title.Equals("Lecteur Vidéo"))
+                {
+                    Detail = new NavigationPage(new PickVideo());
                 }
 
                 MenuListView.SelectedItem = null;

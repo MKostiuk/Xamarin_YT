@@ -40,6 +40,7 @@ C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\XamarinTest2.Droid.views.VideoPlayer.xaml.g.cs
 C:\Users\Admin2\.nuget\packages\plugin.multilingual\1.0.2\lib\MonoAndroid10\Plugin.Multilingual.Abstractions.dll
 C:\Users\Admin2\.nuget\packages\plugin.multilingual\1.0.2\lib\MonoAndroid10\Plugin.Multilingual.dll
+C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\obj\Debug\XamarinTest2.Android.csprojResolveAssemblyReference.cache
 C:\Users\Admin2\source\repos\XamarinTest2\XamarinTest2\XamarinTest2.Android\bin\Debug\XamarinTest2.Android.dll
 bin\Debug\FormsViewGroup.dll.mdb
 bin\Debug\Plugin.Media.dll.mdb

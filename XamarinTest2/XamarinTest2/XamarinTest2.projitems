@@ -15,6 +15,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)controls\IVideoPlayerController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)controls\VideoView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)objects\MainMenuItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)objects\Post.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)objects\VideoInformation.cs" />
@@ -26,6 +28,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)util\RoundedButton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\SqlClient.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\SQLiteClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)util\VideoStatus.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)util\YTSearch.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)views\LoadFileView.xaml.cs">
       <DependentUpon>LoadFileView.xaml</DependentUpon>
@@ -41,6 +44,10 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)views\PageFeedYouTube.xaml.cs">
       <DependentUpon>PageFeedYouTube.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)views\PickVideo.xaml.cs">
+      <DependentUpon>PickVideo.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)views\PostEditSql.xaml.cs">
@@ -73,6 +80,10 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)views\VideoPlayer.xaml.cs">
       <DependentUpon>VideoPlayer.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)views\VideoWebPlayer.xaml.cs">
+      <DependentUpon>VideoWebPlayer.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -143,7 +154,19 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\VideoWebPlayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\VideoPlayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)views\PickVideo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
