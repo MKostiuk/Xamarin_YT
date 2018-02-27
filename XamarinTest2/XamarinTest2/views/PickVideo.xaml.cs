@@ -18,11 +18,22 @@ namespace XamarinTest2.views
 			InitializeComponent ();
 		}
 
-        void PlayPressed(object sender, EventArgs e)
+        void PlayPressedWindows(object sender, EventArgs e)
         {
             var video = new VideoInformation();
             video.Url = "Videos/UWPApiVideo.mp4";
             video.Title = "UWPApiVideo";
+
+            var VideoPage = new VideoPlayer();
+            VideoPage.BindingContext = video;
+            Navigation.PushAsync(VideoPage);
+        }
+
+        void PlayPressedAndroid(object sender, EventArgs e)
+        {
+            var video = new VideoInformation();
+            video.Url = "AndroidApiVideo.mp4";
+            video.Title = "AndroidApiVideo";
 
             var VideoPage = new VideoPlayer();
             VideoPage.BindingContext = video;

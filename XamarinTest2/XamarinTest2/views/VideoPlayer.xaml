@@ -7,7 +7,7 @@
              BackgroundColor="{StaticResource backgroundColor}">
     <ContentPage.Content>
         <StackLayout>
-            <local:VideoView Video="{Binding}" 
+            <local:VideoPlayer Video="{Binding}" 
                              AutoPlay ="true" 
                              AreTransportControlEnabled="True" 
                              HeightRequest="500" 

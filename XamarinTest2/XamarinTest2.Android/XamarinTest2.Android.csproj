@@ -79,12 +79,13 @@
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="26.1.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileHelper.cs" />
+    <Compile Include="util\FileHelper.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RoundedButtonRenderercs.cs" />
-    <Compile Include="SaveAndLoad_Android.cs" />
+    <Compile Include="util\RoundedButtonRenderercs.cs" />
+    <Compile Include="util\SaveAndLoad_Android.cs" />
+    <Compile Include="util\VideoViewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -137,6 +138,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\menu_bdd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\AndroidApiVideo.mp4" />
   </ItemGroup>
   <Import Project="..\XamarinTest2\XamarinTest2.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

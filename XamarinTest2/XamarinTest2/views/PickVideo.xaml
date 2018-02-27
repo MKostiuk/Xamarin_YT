@@ -11,7 +11,8 @@
                     Style="{StaticResource labelStyle}"/>
             <local:RoundedButton Text="Lire Vidéo"
                                  Style="{StaticResource buttonStyle}"
-                                 Pressed="PlayPressed"/>
+                                 />
+           
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

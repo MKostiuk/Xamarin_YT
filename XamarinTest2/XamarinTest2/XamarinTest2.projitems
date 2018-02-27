@@ -16,7 +16,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)controls\IVideoPlayerController.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)controls\VideoView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)controls\VideoPlayer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)objects\MainMenuItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)objects\Post.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)objects\VideoInformation.cs" />
